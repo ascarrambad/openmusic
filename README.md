@@ -1,4 +1,4 @@
-# Open Music — an open music player for iOS
+# <img src="./appIcon.png"  width="40px" height="40px" style="border-radius: 25%;"> Open Music — an open music player for iOS
 
 ***Old unmantained Swift 3.x app***
 
