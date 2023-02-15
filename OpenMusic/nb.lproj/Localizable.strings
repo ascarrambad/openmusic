@@ -1,0 +1,16 @@
+"cell_song" = " låt";
+"cell_songs" = " låter";
+"recently_added" = "Nylig lagt til";
+"error" = "Error";
+"ok_button" = "OK";
+"most_played" = "Mest avspilt";
+"playlist_fobidden_name" = "Du kan ikke lage en spilleliste med dette navnet";
+"empty_playlist" = "Du kan ikke lage en tom spilleliste";
+"playlist_same_name" = "Det finnes allerede en spilleliste med dette navnet";
+"playlist_header_automatic" = "Automatisk";
+"playlist_header_user" = "Laget av deg";
+"search_placeholder" = "Søk så mye du vil";
+"wait_for_results" = "Et øyeblikk...";
+"unknown_artist" = "Ukjent artist";
+"no_title" = "Ingen tittel";
+"playlist_name_placeholder" = "Navn på spilleliste...";

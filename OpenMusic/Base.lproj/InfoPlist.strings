@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  OpenMusic
+
+  Created by Matteo Riva on 17/09/2016.
+  Copyright © 2016 Matteo Riva. All rights reserved.
+*/
+
+"find_songs_qaction" = "Search for new songs";
+"shuffle_qaction" = "Shuffle all";
+"play_favorites_qaction" = "Play your favourite songs";

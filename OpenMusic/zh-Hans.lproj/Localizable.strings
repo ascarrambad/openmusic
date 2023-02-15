@@ -1,0 +1,16 @@
+"cell_song" = " 歌曲";
+"cell_songs" = " 歌曲";
+"recently_added" = "最近添加";
+"error" = "错误";
+"ok_button" = "好";
+"most_played" = "发挥了最大";
+"playlist_fobidden_name" = "您不能创建一个播放列表";
+"empty_playlist" = "您不能创建一个空播放列表";
+"playlist_same_name" = "已经有一个播放列表,这一标题。";
+"playlist_header_automatic" = "自动装置的";
+"playlist_header_user" = "您创建的";
+"search_placeholder" = "搜索你想要的一切";
+"wait_for_results" = "等待一个请稍候...";
+"unknown_artist" = "未知艺术家";
+"no_title" = "无标题";
+"playlist_name_placeholder" = "播放列表的名称。";

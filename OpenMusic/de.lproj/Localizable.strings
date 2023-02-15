@@ -1,0 +1,16 @@
+"cell_song" = " lied";
+"cell_songs" = " lieder";
+"recently_added" = "Neue Lieder";
+"error" = "Error";
+"ok_button" = "OK";
+"most_played" = "Mehr gespielte";
+"playlist_fobidden_name" = "Playlist mit diesen name ist verboten";
+"empty_playlist" = "Du kannst keine leere playlist herstellen";
+"playlist_same_name" = "Es gibt schon eine playlist mit diesen name";
+"playlist_header_automatic" = "Automatic";
+"playlist_header_user" = "Bei dir hergestellt";
+"search_placeholder" = "Such waß du willßt";
+"wait_for_results" = "Bitte warten...";
+"unknown_artist" = "Unbekannter Künstler";
+"no_title" = "Kein titel";
+"playlist_name_placeholder" = "Playlist name...";

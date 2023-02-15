@@ -1,0 +1,16 @@
+"cell_song" = " 曲";
+"cell_songs" = " 曲";
+"recently_added" = "最近追加された";
+"error" = "エラー";
+"ok_button" = "是認する";
+"most_played" = "ほとんどの再生";
+"playlist_fobidden_name" = "この名前のプレイリストを作成することはできません";
+"empty_playlist" = "空のプレイリストを作成することはできません";
+"playlist_same_name" = "このタイトルのプレイリストがすでに存在します";
+"playlist_header_automatic" = "自動の";
+"playlist_header_user" = "作成した";
+"search_placeholder" = "したいすべての検索";
+"wait_for_results" = "「少々お待ちください ...";
+"unknown_artist" = "不明なアーティスト";
+"no_title" = "タイトルがありません";
+"playlist_name_placeholder" = "プレイリストの名前をしています...";

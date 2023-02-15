@@ -1,0 +1,28 @@
+/* Class = "UINavigationItem"; title = "Artisti"; ObjectID = "4aW-mV-Bw8"; */
+"4aW-mV-Bw8.title" = "Artiesten";
+
+/* Class = "UITabBarItem"; title = "Artisti"; ObjectID = "4bE-dT-281"; */
+"4bE-dT-281.title" = "Artiesten";
+
+/* Class = "UINavigationItem"; title = "In Riproduzione"; ObjectID = "4fu-nE-nRC"; */
+"4fu-nE-nRC.title" = "Nu afspelen";
+
+/* Class = "UINavigationItem"; title = "Crea playlist"; ObjectID = "Pwj-tw-R8H"; */
+"Pwj-tw-R8H.title" =  "Afspeellijsten maken";
+
+/* Class = "UINavigationItem"; title = "Playlists"; ObjectID = "fRe-Iu-rr1"; */
+"fRe-Iu-rr1.title" = "Afspeellijsten";
+
+/* Class = "UINavigationItem"; title = "Brani"; ObjectID = "fyp-Sc-kfJ"; */
+"fyp-Sc-kfJ.title" = "Nummers";
+
+"HHO-vK-C9B.title" = "Nummers";
+
+/* Class = "UITabBarItem"; title = "Brani"; ObjectID = "joq-GD-pib"; */
+"joq-GD-pib.title" = "Nummers";
+
+/* Class = "UILabel"; text = "Ciao! Cosa vuoi cercare oggi?"; ObjectID = "m2S-2j-DHc"; */
+"m2S-2j-DHc.text" = "Hallo! Waar kijk je voor vandaag?";
+
+/* Class = "UITabBarItem"; title = "Playlists"; ObjectID = "tni-MQ-jo2"; */
+"tni-MQ-jo2.title" = "Afspeellijsten";

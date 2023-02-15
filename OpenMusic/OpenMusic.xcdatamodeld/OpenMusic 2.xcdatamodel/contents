@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10137.1" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="Album" representedClassName="MeratiMusic.Album" syncable="YES">
+        <attribute name="coverImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hasDownloadedSongs" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="id" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" indexed="YES" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="thumbImage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="artist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Artist" inverseName="albums" inverseEntity="Artist" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Song" inverseName="album" inverseEntity="Song" syncable="YES"/>
+    </entity>
+    <entity name="Artist" representedClassName="MeratiMusic.Artist" syncable="YES">
+        <attribute name="coverImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hasDownloadedSongs" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString="No name" indexed="YES" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="thumbImage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="albums" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Album" inverseName="artist" inverseEntity="Album" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Song" inverseName="artist" inverseEntity="Song" syncable="YES"/>
+    </entity>
+    <entity name="Playlist" representedClassName="MeratiMusic.Playlist" syncable="YES">
+        <attribute name="name" attributeType="String" defaultValueString="No name" indexed="YES" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="system" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Song" inverseName="playlist" inverseEntity="Song" syncable="YES"/>
+    </entity>
+    <entity name="Song" representedClassName="MeratiMusic.Song" syncable="YES">
+        <attribute name="bitrate" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="duration" attributeType="String" syncable="YES"/>
+        <attribute name="durationInSeconds" attributeType="Integer 16" minValueString="0" syncable="YES"/>
+        <attribute name="id" attributeType="String" syncable="YES"/>
+        <attribute name="isDownloaded" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isDownloading" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="nameFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playCount" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="rating" attributeType="Integer 16" minValueString="0" maxValueString="5" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" attributeType="String" defaultValueString="No title" indexed="YES" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="album" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Album" inverseName="songs" inverseEntity="Album" syncable="YES"/>
+        <relationship name="artist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Artist" inverseName="songs" inverseEntity="Artist" syncable="YES"/>
+        <relationship name="playlist" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Playlist" inverseName="songs" inverseEntity="Playlist" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Album" positionX="43" positionY="-7" width="128" height="150"/>
+        <element name="Artist" positionX="-126" positionY="135" width="128" height="133"/>
+        <element name="Playlist" positionX="18" positionY="306" width="128" height="90"/>
+        <element name="Song" positionX="351" positionY="23" width="128" height="238"/>
+    </elements>
+</model>

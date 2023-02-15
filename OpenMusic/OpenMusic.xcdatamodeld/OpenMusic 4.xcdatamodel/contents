@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11538.1" systemVersion="16A319" minimumToolsVersion="Xcode 7.3" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Album" representedClassName=".Album" syncable="YES">
+        <attribute name="coverImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="thumbImage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="artist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Artist" inverseName="albums" inverseEntity="Artist" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Song" inverseName="album" inverseEntity="Song" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="id"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="Artist" representedClassName=".Artist" syncable="YES">
+        <attribute name="coverImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString="No name" indexed="YES" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="thumbImage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="albums" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Album" inverseName="artist" inverseEntity="Album" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Song" inverseName="artist" inverseEntity="Song" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="name"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="Playlist" representedClassName=".Playlist" syncable="YES">
+        <attribute name="name" attributeType="String" defaultValueString="No name" indexed="YES" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="system" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Song" inverseName="playlist" inverseEntity="Song" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="name"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="Song" representedClassName=".Song" syncable="YES">
+        <attribute name="bitrate" attributeType="Integer 16" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="duration" attributeType="String" syncable="YES"/>
+        <attribute name="durationInSeconds" attributeType="Integer 16" minValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="isDownloaded" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isDownloading" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="playCount" attributeType="Integer 32" minValueString="0" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="rating" attributeType="Integer 16" minValueString="0" maxValueString="5" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="title" attributeType="String" defaultValueString="No title" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="album" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Album" inverseName="songs" inverseEntity="Album" syncable="YES"/>
+        <relationship name="artist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Artist" inverseName="songs" inverseEntity="Artist" syncable="YES"/>
+        <relationship name="playlist" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Playlist" inverseName="songs" inverseEntity="Playlist" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="id"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <elements>
+        <element name="Album" positionX="43" positionY="-7" width="128" height="133"/>
+        <element name="Artist" positionX="-126" positionY="135" width="128" height="118"/>
+        <element name="Playlist" positionX="18" positionY="306" width="128" height="88"/>
+        <element name="Song" positionX="351" positionY="23" width="128" height="225"/>
+    </elements>
+</model>

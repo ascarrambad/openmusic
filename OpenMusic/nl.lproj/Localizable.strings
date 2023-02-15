@@ -1,0 +1,16 @@
+"cell_song" = " nummer";
+"cell_songs" = " nummers";
+"recently_added" = "Onlangs toegevoegd";
+"error" = "Fout";
+"ok_button" = "OK";
+"most_played" = "Meest afgespeeld";
+"playlist_fobidden_name" = "U bovenomschreven maak een afspeellijst met deze naam";
+"empty_playlist" = "U kunt een lege afspeellijst";
+"playlist_same_name" = "Er bestaat al een afspeellijst met deze titel";
+"playlist_header_automatic" = "Automatisch";
+"playlist_header_user" = "Door u gemaakt";
+"search_placeholder" = "Zoeken wat u wilt";
+"wait_for_results" = "Wacht een ogenblik geduld ...";
+"unknown_artist" = "Onbekende artiest";
+"no_title" = "Geen titel";
+"playlist_name_placeholder" = "Naam van afspeellijst ...";

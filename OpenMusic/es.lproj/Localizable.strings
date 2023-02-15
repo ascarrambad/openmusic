@@ -1,0 +1,16 @@
+"cell_song" = " canción";
+"cell_songs" = " canciones";
+"recently_added" = "Recientemente añadido";
+"error" = "Error";
+"ok_button" = "OK";
+"most_played" = "Más jugados";
+"playlist_fobidden_name" = "No se puede crear una playlist con este nombre";
+"empty_playlist" = "No se puede crear una playlist vacía";
+"playlist_same_name" = "Ya existe una playlist con este título";
+"playlist_header_automatic" = "Automático";
+"playlist_header_user" = "Creado por ti";
+"search_placeholder" = "Busca todo lo que quieras";
+"wait_for_results" = "Espera un momento por favor...";
+"unknown_artist" = "Artista desconocido";
+"no_title" = "Sin título";
+"playlist_name_placeholder" = "Nombre de la lista...";

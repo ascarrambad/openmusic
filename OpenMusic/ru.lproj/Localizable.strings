@@ -1,0 +1,16 @@
+"cell_song" = " песня";
+"cell_songs" = " песня";
+"recently_added" = "Недавно добавленные";
+"error" = "ошибка";
+"ok_button" = "Хорошо";
+"most_played" = "Большинство играет важную";
+"playlist_fobidden_name" = "Вы не можете создать список воспроизведения с этим именем";
+"empty_playlist" = "Вы не можете создать пустой список воспроизведения";
+"playlist_same_name" = "В то же время в список воспроизведения с название";
+"playlist_header_automatic" = "автоматический";
+"playlist_header_user" = "которые вы создали";
+"search_placeholder" = "Поиск все вы хотите";
+"wait_for_results" = "Подождите пожалуйста...";
+"unknown_artist" = "Неизвестный исполнитель";
+"no_title" = "Нет заголовка";
+"playlist_name_placeholder" = "Имя списка воспроизведения ...";

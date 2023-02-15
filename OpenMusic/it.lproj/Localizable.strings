@@ -1,0 +1,39 @@
+"cell_song" = " canzone";
+"cell_songs" = " canzoni";
+"recently_added" = "Aggiunte di recente";
+"error" = "Errore";
+"ok_button" = "OK";
+"most_played" = "Più ascoltate";
+"playlist_fobidden_name" = "Non puoi creare una playlist con questo nome";
+"empty_playlist" = "Non puoi creare una playlist vuota";
+"playlist_same_name" = "Esiste già una playlist con questo titolo";
+"playlist_header_automatic" = "Automatiche";
+"playlist_header_user" = "Create da te";
+"search_placeholder" = "Cerca tutto quello che vuoi";
+"wait_for_results" = "Aspetta un attimo...";
+"no_title" = "Nessun titolo";
+"playlist_name_placeholder" = "Nome della playlist...";
+"corrupted_data" = "Dati corrotti. Riprova il download.";
+
+"unknown_artist" = "Artista sconosciuto";
+"unknown_album" = "Album sconosciuto";
+
+"all_q" = "Tutte";
+"low_q" = "Bassa";
+"med_q" = "Media";
+"hd_q" = "Alta";
+
+"fill_info_placeholder" = "Inserisci informazioni";
+"artist_field_placeholder" = "Nome artista";
+"song_field_placeholder" = "Titolo canzone";
+
+"share_link" = "Condividi";
+"set_home" = "Imposta come homepage";
+"cancel_button" = "Annulla";
+
+"edit_button" = "Modifica";
+"reorder_button" = "Riordina";
+
+"current_song" = "In riproduzione";
+"next_songs" = "Prossime";
+"previous_songs" = "Precedenti";
